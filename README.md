@@ -12,7 +12,7 @@ tags:
 
 This example runs a [Directus](https://directus.io/) instance with minimal config using MySQL.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/2fy758?referralCode=4ArgSI)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/pn_H14?referralCode=frnWSQ)
 
 ## ✨ Features
 
