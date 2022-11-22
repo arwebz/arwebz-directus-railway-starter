@@ -1,23 +1,23 @@
 ---
 title: Directus
-description: A one-click-install Directus instance using PostgreSQL. Always install lastest version know of Directus.
+description: A one-click-install Directus instance using MySQL. Always install lastest version know of Directus.
 tags:
   - javascript
   - directus
   - cms
-  - postgreSQL
+  - mySQL
 ---
 
 # Directus railway template
 
-This example runs a [Directus](https://directus.io/) instance with minimal config using PostgreSQL.
+This example runs a [Directus](https://directus.io/) instance with minimal config using MySQL.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/2fy758?referralCode=4ArgSI)
 
 ## ✨ Features
 
 - Directus
-- PostgreSQL
+- MySQL
 - Javascript
 
 ## 💁‍♀️ How to use
