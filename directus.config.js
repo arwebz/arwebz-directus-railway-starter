@@ -13,8 +13,8 @@ module.exports = function (env) {
         // Reference: https://docs.railway.app/develop/variables#railway-provided-variables
         PUBLIC_URL: `http://0.0.0.0:${env.PORT}`,
 
-        // Database variables from Railway PostgreSQL Plugin
-        // Reference: https://docs.railway.app/plugins/postgresql
+        // Database variables from Railway MySQL Plugin
+        // Reference: https://docs.railway.app/databases/mysql
         DB_CLIENT: 'mysql',
         DB_HOST: env.MYSQLHOST,
         DB_PORT: env.MYSQLPORT,
