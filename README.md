@@ -6,7 +6,6 @@ tags:
   - directus
   - cms
   - mysql
-  - redis
 ---
 
 # Directus railway template
@@ -19,7 +18,6 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 
 - Directus
 - MySQL
-- Redis
 - Javascript
 
 ## 💁‍♀️ How to use
