@@ -5,7 +5,8 @@ tags:
   - javascript
   - directus
   - cms
-  - mySQL
+  - mysql
+  - redis
 ---
 
 # Directus railway template
@@ -18,6 +19,7 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 
 - Directus
 - MySQL
+- Redis
 - Javascript
 
 ## 💁‍♀️ How to use
@@ -31,3 +33,8 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 - This is a minimal one-click-deploy solution to Directus, see [Directus docs](https://docs.directus.io/getting-started/introduction.html) to config it to your needs.
 
 - Re deploys won't erase your db data since according to Directus docs `Directus will use an existing .env file (or existing environment variables) to either install the database (if it's empty) or migrate it to the latest version (if it already exists and has missing migrations).` but be careful!
+
+## MySQL 8 workaround
+
+`ALTER USER 'root'@'%' IDENTIFIED WITH 'mysql_native_password' BY 'mySQL_root_password';
+FLUSH PRIVILEGES;`
