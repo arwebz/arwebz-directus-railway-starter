@@ -21,5 +21,6 @@ module.exports = function (env) {
         DB_DATABASE: env.MYSQLDATABASE,
         DB_USER: env.MYSQLUSER,
         DB_PASSWORD: env.MYSQLPASSWORD,
+        DB_SSL: 'true',
     };
 };
