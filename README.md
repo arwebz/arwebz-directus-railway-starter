@@ -36,5 +36,7 @@ This example runs a [Directus](https://directus.io/) instance with minimal confi
 
 ## MySQL 8 workaround
 
-`ALTER USER 'root'@'%' IDENTIFIED WITH 'mysql_native_password' BY 'mySQL_root_password';
-FLUSH PRIVILEGES;`
+```
+ALTER USER 'root'@'%' IDENTIFIED WITH 'mysql_native_password' BY 'mySQL_root_password';
+FLUSH PRIVILEGES;
+```
