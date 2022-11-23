@@ -6,9 +6,9 @@
     "start": "npx directus start"
   },
   "engines": {
-		"node": ">=16.0.0",
-		"npm": ">=8.5.0"
-	},
+    "node": ">=16.0.0",
+    "npm": ">=8.5.0"
+  },
   "dependencies": {
     "directus": "^9.21.0",
     "mysql": "^2.18.1"
