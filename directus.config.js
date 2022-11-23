@@ -21,11 +21,5 @@ module.exports = function (env) {
         DB_DATABASE: env.MYSQLDATABASE,
         DB_USER: env.MYSQLUSER,
         DB_PASSWORD: env.MYSQLPASSWORD,
-        
-        RATE_LIMITER_STORE: 'redis',
-        RATE_LIMITER_REDIS: `redis://${env.REDISUSER}:${env.REDISPASSWORD}@${env.REDISHOST}:${env.REDISPORT}`,
-        
-        CACHE_STORE: 'redis',
-        CACHE_REDIS: `redis://${env.REDISUSER}:${env.REDISPASSWORD}@${env.REDISHOST}:${env.REDISPORT}`,
     };
 };
