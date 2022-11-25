@@ -12,6 +12,6 @@
   "dependencies": {
     "directus": "^9.21.0",
     "mysql": "^2.18.1",
-    "redis": "^4.5.0"
+    "redis": "^4.5.1"
   }
 }
