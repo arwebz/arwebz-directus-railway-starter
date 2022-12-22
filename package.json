@@ -10,7 +10,7 @@
     "npm": ">=8.5.0"
   },
   "dependencies": {
-    "directus": "^9.21.0",
+    "directus": "^9.22.1",
     "mysql": "^2.18.1",
     "redis": "^4.5.0"
   }
